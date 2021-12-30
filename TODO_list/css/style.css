@@ -1,0 +1,35 @@
+body{
+    font-family: 'Courier New';
+    margin:0 auto;
+    width: 50%;
+}
+.todoContainer{
+    width: 500px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+#inputField{
+    width: 300px;
+    height: 50px;
+    margin-left: 5px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#submit{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+#tasks,li{
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    /* font-size: 50px; */
+}
